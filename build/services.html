@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamBox</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <link rel="icon" href="/build/assets/icons/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <div
+      class="h-16 w-full top-0 right-0 left-0 fixed bg-black flex justify-between p-5 zoom-in z-30"
+    >
+      <div class="flex w-full justify-between">
+        <div>
+          <a class="text-4xl text-white no-underline logo_font" href="#"
+            >StreamBox</a
+          >
+        </div>
+        <div>
+          <nav class="hidden md:flex space-x-4 font-semibold mt-2 text-white">
+            <a
+              href="/build/home.html"
+              class="no-underline hover:text-blue-300 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
+              >Home</a
+            >
+            <a
+              href="/build/services.html"
+              class="no-underline text-blue-500 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
+              >Services</a
+            >
+            <a
+              href="/build/movies.html"
+              class="no-underline hover:text-blue-300 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
+              >Movies</a
+            >
+            <a
+              href="/build/index.html"
+              class="no-underline hover:text-blue-300 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
+              >About</a
+            >
+            <a
+              href="/build/contact.html"
+              class="no-underline hover:text-blue-300 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </div>
+      <div>
+        <div class="menu-btn md:hidden hover:cursor-pointer">
+          <div
+            class="btn-line bg-white h-0.5 w-9 m-2 transition-all ease-out"
+          ></div>
+          <div
+            class="btn-line bg-white h-0.5 w-9 m-2 transition-all ease-out"
+          ></div>
+          <div
+            class="btn-line bg-white h-0.5 w-9 m-2 transition-all ease-out"
+          ></div>
+        </div>
+        <div class="menu hidden">
+          <nav
+            class="flex flex-col space-y-4 bg-opacity-80 bg-black border-[1px] border-blue-600 rounded-md p-4 w-36 top-4 float-right"
+          >
+            <a
+              href="/build/home.html"
+              class="no-underline hover:text-blue-300 nav-item"
+              >Home</a
+            >
+            <a
+              href="/build/services.html"
+              class="no-underline text-blue-500 hover:text-blue-300 nav-item"
+              >Services</a
+            >
+            <a
+              href="/build/movies.html"
+              class="no-underline hover:text-blue-300 nav-item"
+              >Movies</a
+            >
+            <a
+              href="/build/index.html"
+              class="no-underline hover:text-blue-300 nav-item"
+              >About</a
+            >
+            <a
+              href="/build/contact.html"
+              class="no-underline hover:text-blue-300 nav-item"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-24">
+      <section class="py-12">
+        <div class="container max-md:px-4 mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-10">Services</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="service-1 bg-black rounded-lg shadow-lg text-center">
+              <img
+                src="/build/assets/services/rating_2.jpg"
+                alt="Service 1"
+                class="mx-auto rounded-xl"
+              />
+              <h3 class="text-2xl font-bold">Entertainment Ratings</h3>
+            </div>
+
+            <div class="service-2 bg-black rounded-lg shadow-lg text-center">
+              <img
+                src="/build/assets/services/streaming_1.jpg"
+                alt="Service 2"
+                class="mx-auto rounded-xl"
+              />
+              <h3 class="text-2xl font-bold">Entertainment Streaming</h3>
+            </div>
+
+            <div class="service-3 bg-black rounded-lg shadow-lg text-center">
+              <img
+                src="/build/assets/services/camera.jpg"
+                alt="Service 3"
+                class="mx-auto rounded-xl"
+              />
+              <h3 class="text-2xl font-bold">Offline Entertainment</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="logos px-16 whitespace-nowrap relative box-border bg-slate-500 z-30 overflow-hidden"
+      >
+        <div class="logos-slide inline-flex pause">
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/netflix.ico"
+            alt="netflix logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/hbo.ico"
+            alt="hbo logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/disney.ico"
+            alt="disney logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/prime.ico"
+            alt="prime logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/hulu.ico"
+            alt="hulu logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/appletv.ico"
+            alt="appletv logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/Paramount+.png"
+            alt="appletv logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/netflix.ico"
+            alt="netflix logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/hbo.ico"
+            alt="hbo logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/disney.ico"
+            alt="disney logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/prime.ico"
+            alt="prime logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/hulu.ico"
+            alt="hulu logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/appletv.ico"
+            alt="appletv logo"
+          />
+          <img
+            class="h-24 mx-10"
+            src="/build/assets/services/Paramount+.png"
+            alt="appletv logo"
+          />
+        </div>
+      </section>
+      <section class="py-12 slide-up">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-8">Pricing</h2>
+          <div class="md:flex justify-center md:space-x-8 m-6 grid-cols-1">
+            <div
+              class="bg-black border-2 p-6 max-md:mt-4 rounded-lg shadow-lg shadow-blue-300 hover:transition-transform hover:scale-110 hover:ease-in-out"
+            >
+              <h3 class="text-2xl font-bold mb-4">Basic Plan</h3>
+              <p class="text-3xl font-bold mb-4">$0</p>
+              <p class="mb-4">
+                Perfect for providing detailed entertainment descriptions and
+                comprehensive ratings, ensuring you have all the information you
+                need to make informed viewing choices!
+              </p>
+              <ul class="mb-4">
+                <li>✔ In Depth description</li>
+                <li>✔ Genuine ratings</li>
+              </ul>
+              <button
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:transition-transform hover:scale-125 hover:ease-in-out"
+              >
+                More info
+              </button>
+            </div>
+
+            <div
+              class="bg-black p-6 max-md:mt-4 rounded-lg shadow-lg border-2 border-blue-500 shadow-blue-500 hover:scale-110 hover:transition-transform hover:ease-in-out"
+            >
+              <h3 class="text-2xl font-bold mb-4">Standard Plan</h3>
+              <p class="text-3xl font-bold mb-4">$20</p>
+              <p class="mb-4">
+                Enjoy unlimited streaming of our vast library of movies and
+                series in high-definition. Perfect for entertainment
+                descriptions and comprehensive ratings!
+              </p>
+              <ul class="mb-4">
+                <li>✔ Fast Online Streaming</li>
+                <li>✔ Latest shows onhand</li>
+              </ul>
+              <button
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:transition-transform hover:scale-125 hover:ease-in-out"
+              >
+                More info
+              </button>
+            </div>
+
+            <div
+              class="bg-black border-2 border-white p-6 max-md:mt-4 rounded-lg shadow-lg shadow-blue-300 hover:transition-transform hover:scale-110 hover:ease-in-out"
+            >
+              <h3 class="text-2xl font-bold mb-4">Premium Plan</h3>
+              <p class="text-3xl font-bold mb-4">$30</p>
+              <p class="mb-4">
+                Experience the ultimate entertainment with unlimited HD
+                streaming and downloading of movies and series. Enjoy detailed
+                descriptions and comprehensive ratings!
+              </p>
+              <ul class="mb-4">
+                <li>✔ Download movies and shows</li>
+                <li>✔ Fastest online streaming</li>
+              </ul>
+              <button
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:transition-transform hover:scale-125 hover:ease-in-out"
+              >
+                More info
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="border-t-[1px] mx-4 py-16 slide-up">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-8 sm:mb-0 px-4">
+              <h4 class="text-white text-lg font-semibold mb-8">Company</h4>
+              <ul>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a
+                    href="/build/about.html"
+                    class="text-gray-400 hover:text-white"
+                    >About Us</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a
+                    href="/build/services.html"
+                    class="text-gray-400 hover:text-white"
+                    >Our Services</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Affiliate Program</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-8 sm:mb-0 px-4">
+              <h4 class="text-white text-lg font-semibold mb-8">Get Help</h4>
+              <ul>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white">FAQ</a>
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white">Reviews</a>
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >User Requests</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Payment Options</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-8 sm:mb-0 px-4">
+              <h4 class="text-white text-lg font-semibold mb-8">
+                Capabilities
+              </h4>
+              <ul>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Stream Movies</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Stream TV Shows</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Super-Fast Streaming</a
+                  >
+                </li>
+                <li
+                  class="mb-2 hover:transition-transform hover:translate-x-3 ease-in-out duration-500"
+                >
+                  <a href="#" class="text-gray-400 hover:text-white"
+                    >Download Movies & Shows</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-8 sm:mb-0 px-4">
+              <h4 class="text-white text-lg font-semibold mb-8">Follow Us</h4>
+              <div class="flex space-x-4">
+                <a
+                  href="#"
+                  title="Facebook"
+                  class="w-10 h-10 flex font-bold items-center justify-center bg-white bg-opacity-20 text-white rounded-full hover:bg-white hover:text-gray-800 transition"
+                  ><i
+                    class="fab fa-facebook text-lg text-white hover:text-gray-800"
+                  ></i
+                ></a>
+                <a
+                  href="#"
+                  title="Twitter"
+                  class="w-10 h-10 flex font-bold items-center justify-center bg-white bg-opacity-20 text-white rounded-full hover:bg-white hover:text-gray-800 transition"
+                  ><i
+                    class="fab fa-twitter text-white text-lg hover:text-gray-800"
+                  ></i
+                ></a>
+                <a
+                  href="#"
+                  title="Instagram"
+                  class="w-10 h-10 flex font-bold items-center justify-center bg-white bg-opacity-20 text-white rounded-full hover:bg-white hover:text-gray-800 transition"
+                  ><i
+                    class="fab fa-instagram text-white text-lg hover:text-gray-800"
+                  ></i
+                ></a>
+                <a
+                  href="#"
+                  title="LinkedIn"
+                  class="w-10 h-10 flex font-bold items-center justify-center bg-white bg-opacity-20 text-white rounded-full hover:bg-white hover:text-gray-800 transition"
+                >
+                  <i
+                    class="fab fa-linkedin text-white text-lg hover:text-gray-800"
+                  ></i>
+                </a>
+              </div>
+              <div class="text-gray-300 mt-8 font-thin text-sm">
+                Copyright &copy; 2024 StreamBox&reg;. All rights reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/build/script.js"></script>
+  </body>
+</html>
