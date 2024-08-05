@@ -13,7 +13,7 @@
   </head>
   <body class="bg-black text-white">
     <div
-      class="h-16 w-full top-0 right-0 left-0 fixed bg-black flex justify-between p-5 zoom-in z-30"
+      class="h-16 w-full top-0 right-0 left-0 fixed bg-black bg-opacity-40 backdrop-blur-sm flex justify-between p-5 zoom-in z-30"
     >
       <div class="flex w-full justify-between">
         <div>
@@ -39,7 +39,7 @@
               >Movies</a
             >
             <a
-              href="/build/index.html"
+              href="/build/about.html"
               class="no-underline hover:text-blue-300 hover:transition-transform hover:-translate-y-2 hover:ease-in-out hover:duration-500"
               >About</a
             >
@@ -83,7 +83,7 @@
               >Movies</a
             >
             <a
-              href="/build/index.html"
+              href="/build/about.html"
               class="no-underline hover:text-blue-300 nav-item"
               >About</a
             >
@@ -114,7 +114,7 @@
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  class="ml-5 p-2 mb-4 placeholder-slate-500 text-black bg-white rounded-lg w-full md:w-1/2"
+                  class="ml-5 p-2 mb-4 placeholder-slate-500 text-black bg-white rounded-lg w-full md:w-1/2 focus:outline-none focus:bg-slate-200"
                 />
               </div>
               <div class="flex w-full">
@@ -124,21 +124,23 @@
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  class="ml-6 p-2 mb-4 placeholder-slate-500 text-black bg-white rounded-lg w-full md:w-1/2"
+                  class="ml-6 p-2 mb-4 placeholder-slate-500 text-black bg-white rounded-lg w-full md:w-1/2 focus:outline-none focus:bg-slate-200"
                 />
               </div>
               <div class="flex">
                 <p class="font-semibold mr-2">
                   Your Message <span class="text-red-600 font-bold">*</span>
                 </p>
-                <input
-                  type="text"
-                  placeholder=".."
-                  class="p-2 mb-4 placeholder-slate-500 h-52 text-black bg-white rounded-lg w-full md:w-1/2"
-                />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Enter you message here..."
+                  rows="4"
+                  class="form-textarea rounded-md border-[1px] p-1 text-black w-full md:w-1/2 mb-4 h-52 resize-none focus:outline-none focus:bg-slate-200"
+                ></textarea>
               </div>
               <button
-                class="text-white ml-[280px] px-4 py-2 rounded-xl font-bold border-2 button max-md:ml-[100px] text-xl hover:bg-blue-300 hover:border-blue-300 hover:text-black"
+                class="text-white ml-[280px] px-4 py-2 rounded-xl font-bold border-2 button max-md:ml-[100px] text-xl hover:bg-blue-300 hover:border-blue-300 hover:text-black hover:scale-95 hover:ease-in-out hover:duration-500"
               >
                 Send
               </button>

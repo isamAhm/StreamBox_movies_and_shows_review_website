@@ -110,7 +110,7 @@ const loadPopularMovies = async () => {
       "cursor-pointer"
     );
     movieElement.innerHTML = `
-            <img src="${movie.Poster}" alt="${movie.Title} poster" class="w-full h-64 object-cover rounded-lg mb-4 cursor-pointer">
+            <img src="${movie.Poster}" alt="${movie.Title} poster" class="w-full h-64 object-cover rounded-lg mb-4 hover:cursor-pointer hover:scale-110 hover:ease-in-out hover:duration-500">
             <h3 class="text-xl font-bold">${movie.Title}</h3>
             <p><strong>Year:</strong> ${movie.Year}</p>
             <p><strong>Genre:</strong> ${movie.Genre}</p>
