@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const apiKey = "e217596a";
+const apiKey = "";
 
 const popularMovies = [
   "Inception",
